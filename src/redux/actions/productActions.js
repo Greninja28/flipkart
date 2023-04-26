@@ -1,7 +1,7 @@
 import axios from "axios";
 import { GET_PRODUCTS_FAIL, GET_PRODUCTS_SUCCESS, GET_PRODUCT_DETAILS_FAIL, GET_PRODUCT_DETAILS_REQUEST, GET_PRODUCT_DETAILS_SUCCESS } from "../constants/productConstant";
 
-const URL = 'https://flipKart-api.onrender.com'
+const URL = 'https://flipkart-api-nlt7.onrender.com'
 
 export const getProducts = () => async (dispatch) => {
   try {

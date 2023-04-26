@@ -1,7 +1,7 @@
 import axios from "axios"
 import { ADD_TO_CART, ADD_TO_CART_ERROR, REMOVE_FROM_CART } from "../constants/cartConstants"
 
-const URL = 'https://flipKart-api.onrender.com'
+const URL = 'https://flipkart-api-nlt7.onrender.com'
 
 export const addToCart = (id, quantity) => async (dispatch) => {
   try {
